@@ -1,0 +1,13 @@
+public class Player {
+    private long id;
+    private String name;
+    private int number;
+
+    public long getId() { return id; }
+    public String getName() { return name; }
+    public int getNumber() { return number; }
+
+    public void setId(long id) { this.id = id; }
+    public void setName(String name) { this.name = name; }
+    public void setNumber(int number) { this.number = number; }
+}
